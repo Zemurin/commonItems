@@ -147,6 +147,9 @@
     <ClInclude Include="..\external\zip\src\zip.h" />
     <ClInclude Include="..\GameVersion.h" />
     <ClInclude Include="..\iconvlite.h" />
+    <ClInclude Include="..\Localization\LocalizationBlock.h" />
+    <ClInclude Include="..\Localization\LocalizationDatabase.h" />
+    <ClInclude Include="..\Localization\LocalizationLambdas.h" />
     <ClInclude Include="..\Log.h" />
     <ClInclude Include="..\ModLoader\Mod.h" />
     <ClInclude Include="..\ModLoader\ModFilesystem.h" />
@@ -171,6 +174,8 @@
     <ClCompile Include="..\LinuxUtils.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\Localization\LocalizationBlock.cpp" />
+    <ClCompile Include="..\Localization\LocalizationDatabase.cpp" />
     <ClCompile Include="..\Log.cpp" />
     <ClCompile Include="..\ModLoader\ModFilesystem.cpp" />
     <ClCompile Include="..\ModLoader\ModLoader.cpp" />

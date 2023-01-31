@@ -139,36 +139,15 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>../lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>..\lib\CommonItems.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\BulkParser.cpp" />
-    <ClCompile Include="..\Color.cpp" />
-    <ClCompile Include="..\CommonFunctions.cpp" />
-    <ClCompile Include="..\ConvenientParser.cpp" />
-    <ClCompile Include="..\ConverterVersion.cpp" />
-    <ClCompile Include="..\Date.cpp" />
     <ClCompile Include="..\external\googletest\googlemock\src\gmock-all.cc" />
     <ClCompile Include="..\external\googletest\googletest\src\gtest-all.cc" />
     <ClCompile Include="..\external\googletest\googletest\src\gtest_main.cc" />
-    <ClCompile Include="..\external\zip\src\zip.c" />
-    <ClCompile Include="..\iconvlite.cpp" />
-    <ClCompile Include="..\LinuxUtils.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\Localization\LocalizationBlock.cpp" />
-    <ClCompile Include="..\Localization\LocalizationDatabase.cpp" />
-    <ClCompile Include="..\Log.cpp" />
-    <ClCompile Include="..\ModLoader\ModFilesystem.cpp" />
-    <ClCompile Include="..\ModLoader\ModLoader.cpp" />
-    <ClCompile Include="..\ModLoader\ModParser.cpp" />
-    <ClCompile Include="..\OSCommonLayer.cpp" />
-    <ClCompile Include="..\Parser.cpp" />
-    <ClCompile Include="..\ParserHelpers.cpp" />
-    <ClCompile Include="..\StringUtils.cpp" />
-    <ClCompile Include="..\GameVersion.cpp" />
-    <ClCompile Include="..\targa.cpp" />
-    <ClCompile Include="..\WinUtils.cpp" />
     <ClCompile Include="CommonFunctionsTests.cpp" />
     <ClCompile Include="CommonRegexesTests.cpp" />
     <ClCompile Include="ConvenientParserTests.cpp" />
@@ -187,32 +166,6 @@
     <ClCompile Include="ParserTests.cpp" />
     <ClCompile Include="StringUtilsTests.cpp" />
     <ClCompile Include="GameVersionTests.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\BulkParser.h" />
-    <ClInclude Include="..\CommonFunctions.h" />
-    <ClInclude Include="..\CommonRegexes.h" />
-    <ClInclude Include="..\ConvenientParser.h" />
-    <ClInclude Include="..\ConverterVersion.h" />
-    <ClInclude Include="..\Date.h" />
-    <ClInclude Include="..\external\zip\src\miniz.h" />
-    <ClInclude Include="..\external\zip\src\zip.h" />
-    <ClInclude Include="..\iconvlite.h" />
-    <ClInclude Include="..\Localization\LocalizationBlock.h" />
-    <ClInclude Include="..\Localization\LocalizationDatabase.h" />
-    <ClInclude Include="..\Localization\LocalizationLambdas.h" />
-    <ClInclude Include="..\Log.h" />
-    <ClInclude Include="..\Color.h" />
-    <ClInclude Include="..\ModLoader\Mod.h" />
-    <ClInclude Include="..\ModLoader\ModFilesystem.h" />
-    <ClInclude Include="..\ModLoader\ModLoader.h" />
-    <ClInclude Include="..\ModLoader\ModParser.h" />
-    <ClInclude Include="..\Parser.h" />
-    <ClInclude Include="..\OSCompatibilityLayer.h" />
-    <ClInclude Include="..\ParserHelpers.h" />
-    <ClInclude Include="..\StringUtils.h" />
-    <ClInclude Include="..\GameVersion.h" />
-    <ClInclude Include="..\targa.h" />
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="TestFiles\version.txt">

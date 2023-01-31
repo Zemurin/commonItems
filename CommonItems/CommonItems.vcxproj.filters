@@ -10,6 +10,9 @@
     <Filter Include="commonItems\zip">
       <UniqueIdentifier>{7fc504cb-6b32-42e5-8f0e-b447405c9b9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="commonItems\Localization">
+      <UniqueIdentifier>{11e8374b-5761-45b4-8832-d04d753ec68c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\StringUtils.h">
@@ -75,6 +78,15 @@
     <ClInclude Include="..\external\zip\src\zip.h">
       <Filter>commonItems\zip</Filter>
     </ClInclude>
+    <ClInclude Include="..\Localization\LocalizationBlock.h">
+      <Filter>commonItems\Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Localization\LocalizationDatabase.h">
+      <Filter>commonItems\Localization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Localization\LocalizationLambdas.h">
+      <Filter>commonItems\Localization</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\StringUtils.cpp">
@@ -136,6 +148,12 @@
     </ClCompile>
     <ClCompile Include="..\external\zip\src\zip.c">
       <Filter>commonItems\zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Localization\LocalizationBlock.cpp">
+      <Filter>commonItems\Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Localization\LocalizationDatabase.cpp">
+      <Filter>commonItems\Localization</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
