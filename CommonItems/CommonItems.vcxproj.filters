@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="commonItems">
+      <UniqueIdentifier>{9d9734c5-79e6-48d8-83d5-453ac1b0ac8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commonItems\ModLoader">
+      <UniqueIdentifier>{ffe089c0-8218-446d-b0bf-231e6f141e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commonItems\zip">
+      <UniqueIdentifier>{7fc504cb-6b32-42e5-8f0e-b447405c9b9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\StringUtils.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BulkParser.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Color.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFunctions.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonRegexes.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConvenientParser.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ConverterVersion.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Date.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameVersion.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iconvlite.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Log.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OSCompatibilityLayer.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Parser.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ParserHelpers.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\targa.h">
+      <Filter>commonItems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModLoader\Mod.h">
+      <Filter>commonItems\ModLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModLoader\ModFilesystem.h">
+      <Filter>commonItems\ModLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModLoader\ModLoader.h">
+      <Filter>commonItems\ModLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ModLoader\ModParser.h">
+      <Filter>commonItems\ModLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\zip\src\miniz.h">
+      <Filter>commonItems\zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\zip\src\zip.h">
+      <Filter>commonItems\zip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\StringUtils.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BulkParser.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Color.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFunctions.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConvenientParser.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ConverterVersion.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Date.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameVersion.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iconvlite.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LinuxUtils.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Log.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OSCommonLayer.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Parser.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ParserHelpers.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\targa.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WinUtils.cpp">
+      <Filter>commonItems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ModLoader\ModFilesystem.cpp">
+      <Filter>commonItems\ModLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ModLoader\ModLoader.cpp">
+      <Filter>commonItems\ModLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ModLoader\ModParser.cpp">
+      <Filter>commonItems\ModLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\zip\src\zip.c">
+      <Filter>commonItems\zip</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
